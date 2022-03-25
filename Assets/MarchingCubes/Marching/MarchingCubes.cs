@@ -8,7 +8,6 @@ namespace MarchingCubesProject
 {
     public class MarchingCubes : Marching
     {
-
         private Vector3[] EdgeVertex { get; set; }
 
         public MarchingCubes(float surface = 0.5f) : base(surface)

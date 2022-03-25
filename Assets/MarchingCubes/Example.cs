@@ -78,7 +78,6 @@ namespace MarchingCubesProject
 
             for (int i = 0; i < numMeshes; i++)
             {
-
                 List<Vector3> splitVerts = new List<Vector3>();
                 List<int> splitIndices = new List<int>();
 
@@ -111,14 +110,12 @@ namespace MarchingCubesProject
 
                 meshes.Add(go);
             }
-
         }
 
         void Update()
         {
             transform.Rotate(Vector3.up, 10.0f * Time.deltaTime);
         }
-
     }
 
 }
