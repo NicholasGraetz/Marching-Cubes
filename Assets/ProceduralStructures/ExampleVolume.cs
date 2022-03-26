@@ -72,11 +72,6 @@ public class ExampleVolume : MonoBehaviour
         for (int i = 0; i < voxels.Length; i++)
         {
             voxels[i] = 1f;//Random.Range(-1f, 1f);
-        
-            Vector3Int index3D = LinearIndexTo3D(i, bounds);
-        
-            if (Vector3Int.Distance(index3D, bounds / 2) < sphereSize)
-                voxels[i] = -1f;
         }
     }
 
